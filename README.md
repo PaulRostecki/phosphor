@@ -1,6 +1,8 @@
 # PHOSPHOR
 ### A retro terminal simulator for tabletop role-playing games
 
+#### This fork focuses on Dockerizing PHOSPOR, so it's possible to easily use it without installing npm and all requirements on user's computer
+
 [Click here to skip the preamble and jump straight to Getting Started](#getting-started).
 
 ## Inspiration
@@ -33,6 +35,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 To install this project, open a terminal window and `cd` into the repo's directory, then run
 ### `npm install`.
+
+## Docker
+
+You can easily build Docker image with following command
+### `docker build -t phosphor .`
 
 ## Available Scripts
 
